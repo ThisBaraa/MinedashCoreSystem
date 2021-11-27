@@ -1,0 +1,54 @@
+name: MinedashCore
+version: 1.0.0
+main: me.chat.plugin.ChatControl
+author: Kayjiin
+description: Kayjiin Plugin
+api: [spigot, PermissionsEx]
+softdepend: [Vault]
+commands:
+  cc:
+    description: clear chat
+    aliases: []
+  mc:
+    description: disable and enable chat
+    aliases: []
+  build:
+    description: disable and enable chat
+    aliases: []
+permissions:
+  md.core.cc:
+    description: let you clear chat.
+    default: false
+  md.core.mc:
+    description: disable or enable chat.
+    default: false
+  md.core.mc.pass:
+    description: bypass chat disable event.
+    default: false
+  md.core.join.owner:
+    description: bypass chat disable event.
+    default: false
+  md.core.join.staff:
+    description: bypass chat disable event.
+    default: false
+  md.core.join.premium:
+    description: bypass chat disable event.
+    default: false
+  md.core.left.owner:
+    description: bypass chat disable event.
+    default: false
+  md.core.left.staff:
+    description: bypass chat disable event.
+    default: false
+  md.core.left.premium:
+    description: bypass chat disable event.
+    default: false
+  md.build:
+    description: bypass chat disable event.
+    default: false
+  md.build.me:
+    description: bypass chat disable event.
+    default: false
+  md.core.setspawn:
+    description: bypass chat disable event.
+    default: false
